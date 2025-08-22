@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+@font-face {
+    font-family: Inter, Tinos;
+    src: url(../assets/fonts/Inter\,Tinos/);
+
+}
+
+:root {
+    --cor-preto: #201E1D;
+    --cor-laranja: #E6370B;
+    --cor-branco: #FFFFFF;
+    --cor-cinza: #E6E6E6;
+    --cor-beje: #EEC8C5;
+    --cor-beje-variacao: #945757;
+    --cor-azul1: #CEDAE8;
+    --cor-azul2: #A0AAE5;
+
+    --borda: 1px solid var(--cor-cinza);
+    --borda-arredondamento: 8px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Tinos", serif;
+}
+
+body {
+    background-color: var(--cor-preto);
+
+}
+
+h1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+
+}

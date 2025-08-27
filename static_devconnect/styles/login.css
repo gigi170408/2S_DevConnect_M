@@ -1,5 +1,5 @@
 main {
-    background-color: aqua;
+    background-color: var(--cor-preto);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -8,42 +8,86 @@ main {
 }
 
 main>div {
-    background-color: blueviolet;
-    max-width: 342px;
-    width: 100%;
-    height: 400px;
+   width: 90%;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: space-between; */
-    gap: 25px;
+    gap: 15px;
 
 }
 
 form {
     /*background-color: brown;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 3%;
 }
+
 
 #secao-cadastro {
     /*background-color: burlywood;*/
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .estilo-formulario {
+    width: 100%;
+    max-width: 450px;
     background-color: var(--cor-preto);
     border: var(--borda);
-    width: 100%;
-
+    
+    
 }
 
-main>div>p {
-    background-color: chocolate;
+main>div>p { 
+    color: var(--cor-branco);
 }
 
 #secao-instalacao {
-    background-color: chartreuse;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+}
+
+.formulario-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 3%;
+}
+
+.formulario-botao-laranja{
+width: 95%;
+
+}
+
+form > p{
+text-transform: uppercase;
+font-size: var(--tamanho-fonte-sm);
+color: var(--cor-cinza);
+
+}
+
+form > a, #secao-cadastro > p > a{
+color: var(--cor-azul2);
+font-size: var(--tamanho-fonte-sm);
+text-decoration: none;
+
+}
+
+#secao-cadastro > p{
+color: var(--cor-branco);
+font-size: var(--tamanho-fonte-md);
+
 }

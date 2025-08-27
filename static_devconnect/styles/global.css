@@ -46,3 +46,34 @@ h1 {
 
 
 }
+
+.formulario-botao-laranja{
+background-color: var(--cor-laranja);
+border-radius: var(--borda-arredondamento);
+border: none;
+height: 35px;
+
+color: var(--cor-preto);
+font-size: var(--tamanho-fonte-sm);
+
+
+}
+
+.formulario-campos > input{
+border: var(--borda);
+height: 35px;
+background-color: var(--cor-beje);
+
+
+color: var(--cor-beje-variacao);
+font-size: var(--tamanho-fonte-sm);
+border-radius: var(--borda-arredondamento);
+
+}
+
+.formulario-campos > label{
+font-size: var(--tamanho-fonte-sm);
+color: var(--cor-beje-variacao);
+font-weight: 600;
+
+}

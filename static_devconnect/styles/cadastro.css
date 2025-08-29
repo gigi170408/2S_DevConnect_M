@@ -39,10 +39,9 @@ form {
 }
 
 .estilo-formulario {
-    width: 90%;
+ 
     max-width: 450px;
-    background-color: var(--cor-preto);
-    border: var(--borda);
+ 
 
 
 }
@@ -113,16 +112,7 @@ form>a,
     font-size: var(--tamanho-fonte-md);
 }
 
-#texto-upload {
-    display: inline-block;
-    width: 100%;
-    background-color: var(--cor-azul1);
-    padding: 10px;
-    text-align: center;
-    color: var(--cor-preto);
-    box-sizing: border-box;
-    border-radius: var(--borda-arredondamento);
-}
+
 
 #campo-upload {
     display: none;

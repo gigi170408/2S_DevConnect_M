@@ -39,10 +39,9 @@ form {
 }
 
 .estilo-formulario {
-    width: 100%;
+ 
     max-width: 450px;
-    background-color: var(--cor-preto);
-    border: var(--borda);
+
     
     
 }

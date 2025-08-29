@@ -1,0 +1,66 @@
+main {
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+.container-flex-publi {
+    background-color: blueviolet;
+    height: 700px;
+    width: 90%;
+    max-width: 900px;
+
+}
+
+#storys {
+    background-color: var(--cor-preto);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 30px;
+
+}
+
+#storys::-webkit-scrollbar {
+    width: 0;
+
+}
+
+.card-story {
+    /* background-color: blue; */
+
+}
+
+.card-story a {
+    text-decoration: none;
+
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-cinza);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-story a>img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.formulario-botao-laranja {
+    width: 150px;
+}

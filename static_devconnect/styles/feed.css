@@ -156,7 +156,7 @@ padding: 15px;
 .card-publi>figure{
     display: flex;
     flex-direction: column;
-
+align-items: flex-start;
 }
 
 .imagem-publicacao{
@@ -212,4 +212,8 @@ padding: 15px;
 
 
     margin-left: 15px;
+}
+
+.interacoes-publicacao>span{
+    color: var(--cor-branco);
 }
